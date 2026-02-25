@@ -1,0 +1,296 @@
+/*CONFIG PAG*/
+
+
+.titulo-pagina{
+    text-align: center;
+    font-style: italic;
+    font-size:  3em;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    color: darkblue;
+    margin: 10px;
+
+}
+.nome-da-propriedade{
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: "Roboto ", sans-serif;
+    color: darkblue;
+    padding: 20px;
+
+}
+.valor-da-propriedade{
+    font-size: 1,5em;
+    font-weight: 400px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    padding: 30px;
+
+}
+
+/*ELEMENTO ESTD*/
+/*BLOCOS*/
+
+.bloco-1{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-2{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-3{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-1-sem-altura{
+    background-color: lightblue;
+
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-2-sem-altura{
+    background-color: lightpink;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-3-sem-altura{
+    background-color: red;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+
+.bloco-1-fontes-diferente{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-2-fontes-diferente{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+.bloco-3-fontes-diferente{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+
+
+/* CONTAIMERS */
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-row{
+    display: flex;
+    flex-direction: row;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-column{
+    display: flex;
+    flex-direction: column;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-column{
+    display: flex;
+    flex-direction: column;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.content-justify-center{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.justify-content-flex-start{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.justify-content-flex-end{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.justify-content-space-between{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.justify-content-space-around{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.justify-content-space-evenly{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.content-alingitems-center{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center ;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.content-alingitems-flex-start{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start ;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.content-alingitems-flex-end{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-end ;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.content-alingitems-stretch{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: stretch ;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.content-alingitems-baseline{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: baseline;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+
