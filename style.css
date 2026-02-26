@@ -27,6 +27,15 @@
     padding: 30px;
 
 }
+.nome-propriedade-shorthand{
+    font-size:  2em;
+    font-weight: 500px;
+    
+    font-family: "Roboto", sans-serif;
+    color: green;
+    padding: 20px;
+
+}
 
 /*ELEMENTO ESTD*/
 /*BLOCOS*/
@@ -294,3 +303,132 @@
 
 }
 
+.container-flex-wrap-nowrap{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap:nowrap;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-flex-wrap-wrap{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-flex-wrap-reverse{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap-reverse;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+/* VAMOS ESTUDAR UMA PROPRIEDADE SHORTHAND*/
+.container-flex-flow-row-nowrap{
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: center;
+    align-items: center ;
+    /* flex-wrap: nowrap; */
+    flex-flow: row, nowrap;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-align-content-center{
+    display: flex;
+     flex-direction:row; 
+    justify-content: center;
+    align-items: center ;
+     flex-wrap: wrap; 
+    align-content: center;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-align-content-flex-start{
+    display: flex;
+     flex-direction:row; 
+    justify-content: center;
+    align-items: center ;
+     flex-wrap: wrap; 
+    align-content: flex-start;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-align-content-flex-end{
+    display: flex;
+     flex-direction:row; 
+    justify-content: center;
+    align-items: center ;
+     flex-wrap: wrap; 
+    align-content: flex-end;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-align-content-space-between{
+    display: flex;
+     flex-direction:row; 
+    justify-content: center;
+    align-items: center ;
+     flex-wrap: wrap; 
+    align-content: space-between;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-align-content-space-around{
+    display: flex;
+     flex-direction:row; 
+    justify-content: center;
+    align-items: center ;
+     flex-wrap: wrap; 
+    align-content: space-around;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+.container-align-content-space-evenly{
+    display: flex;
+     flex-direction:row; 
+    justify-content: center;
+    align-items: center ;
+     flex-wrap: wrap; 
+    align-content: space-evenly;
+    /* indeferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
