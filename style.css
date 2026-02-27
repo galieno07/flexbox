@@ -1,4 +1,44 @@
+
 /*CONFIG PAG*/
+.menu-principal{
+    width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.menu-principal ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+ }
+
+.menu-principal li{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+}
+.menu-principal a:hover{
+    background-color: aqua;
+    padding: 13px;
+    border-radius: 15px; 
+    
+}
+
+.btn{
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+.btn:hover{
+      background-color: aqua;
+    padding: 13px;
+    border-radius: 15px
+}
+
 
 
 .titulo-pagina{
